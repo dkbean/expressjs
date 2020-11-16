@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "Dang Khanh Vinh",
+      "phone": "0123",
+      "id": "UqhIXiuOG",
+      "email": "vinh2k1@gmail.com",
+      "password": "d1a048e7b2b7ad4267f7f5f25fc4811d"
+    },
+    {
+      "name": "Thinh Pham",
+      "phone": "2031",
+      "id": "oONMmerk5",
+      "email": "dkvi2hsgs@gmail.com",
+      "password": "d1a048e7b2b7ad4267f7f5f25fc4811d"
+    },
+    {
+      "name": "Vinh",
+      "phone": "1312",
+      "id": "hCYPX7GGg"
+    }
+  ],
+  "userss": [
+    {
+      "name": "my",
+      "age": "2",
+      "id": "fbsMgeunx"
+    }
+  ]
+}
