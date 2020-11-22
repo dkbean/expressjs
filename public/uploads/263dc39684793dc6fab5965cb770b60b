@@ -1,0 +1,42 @@
+#!/usr/bin/python3
+import unittest
+# --------------------------------------------------------------
+# Middle of string
+# --------------------------------------------------------------
+def middle(string1) :
+    '''
+    Assume that string1 is a string.
+    Return a string containing the middle character of string1
+    if the length of string1 is odd, or the two middle characters
+    if the length is even.
+    For example, middle('middle') returns 'dd'
+    If the length of string1 is 0, then return None.
+    '''
+    pass
+# --------------------------------------------------------------
+# The Testing
+# --------------------------------------------------------------
+class myTests(unittest.TestCase):
+ def test1(self):
+  self.assertEqual(middle('middle'), 'dd')
+ def test2(self):
+  self.assertEqual(middle('money'), 'n')
+ def test3(self):
+  self.assertEqual(middle('sugar'), 'g')
+ def test4(self):
+  self.assertEqual(middle('t'), 't')
+ def test5(self):
+  self.assertEqual(middle(''), None)
+ def test6(self):
+  self.assertEqual(middle('forgetmenot'), 't')
+
+
+if __name__ == '__main__':
+ unittest.main(exit=True)
+
+
+
+
+# --------------------------------------------------------------
+# The End
+# --------------------------------------------------------------

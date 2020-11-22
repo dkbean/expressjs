@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../../../express-example"
+		},
+		{
+			"path": "../../../testJS"
 		}
 	]
 }

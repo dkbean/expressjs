@@ -10,11 +10,19 @@ block content
 
   .row
     each product in products
-      .col-sm-1.col-md-4.col-lg-3
+      .col-sm-6.col-md-4.col-lg-3
         .card.mb-3
           img.card-img-top(src=product.image)
           .card-body
             h5.card-title= product.name
             p.card-text= product.description
-            a.btn.btn-primary(href='#') Add to cart
+            a.btn.btn-primary(href='/cart/add/'+ product.id) Add to cart
+
+    nav(aria-label='Page navigation example')
+      - var n = 1;
+        ul.pagination
+          while n < 10
+            li.page-item
+              a.page-link(href='products?page='+(n++))=n-1
+
 

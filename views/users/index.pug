@@ -15,12 +15,15 @@ block content
 
   table.table
     tr
+      th Avatar
       th Name
       th Phone
       th Actions
 
     each user in users
       tr
+        td
+          img.z-depth-2.rounded-circle(src=user.avatar, alt="", width=64)
         td= user.name
         td= user.phone
         td
